@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    background-color: #eeeeee;
+}
 .banner-container{
     width: 1440px;
     height: 700px;
@@ -129,4 +132,54 @@ nav ul a{
     font-size: 20px;
     color: #868686;
     margin-bottom: 100px;
+}
+
+/* get in touch form section */
+.getintouch{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 50px 100px;
+}
+.get-data h1{
+    font-size: 95px;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.label-title{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.input{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid rgb(183, 183, 183);
+    font-size: 22px;
+}
+.textarea{
+   width: 497px;     
+   border-radius: 10px;
+   border: 1px solid rgb(183, 183, 183);
+   font-size: 22px;
+}
+.getbutton{
+    width: 500px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    margin-left: 16px;
+}
+.label-title, .input, .textarea{
+    margin: 15px;
 }
