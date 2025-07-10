@@ -46,6 +46,7 @@ nav ul a{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 .btnmar{
     margin-right: 130px;
@@ -94,6 +95,7 @@ nav ul a{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 .actionright img {
     border-radius: 35px;
@@ -179,7 +181,36 @@ nav ul a{
     border-radius: 10px;
     border: none;
     margin-left: 16px;
+    cursor: pointer;
 }
 .label-title, .input, .textarea{
     margin: 15px;
+}
+
+/* footer section  */
+footer{
+    width: 1440px;
+    margin: 250px auto;
+    text-align: center;
+   
+}
+footer h1{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+footer p{
+    font-size: 28px;
+    color: #8987A1;
+    font-weight: normal;
+}
+footer div{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+footer div h5{
+    font-size: 28px;
+    color: #8987A1;
+    font-weight: normal;
 }
