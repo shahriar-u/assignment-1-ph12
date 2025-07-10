@@ -156,7 +156,7 @@ nav ul a{
 .label-title{
     font-size: 18px;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
 }
 .input{
     width: 497px;
@@ -213,4 +213,62 @@ footer div h5{
     font-size: 28px;
     color: #8987A1;
     font-weight: normal;
+}
+
+/* feedback section  */
+.feedback-section h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px auto;
+}
+.card{
+    width: 350px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(178, 178, 178);
+}
+.card h2{
+    font-size: 20px;
+    
+}
+.card h3{
+    font-size: 17px;
+    font-weight: normal;
+}
+.card-review{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.card-review h3{
+    font-size: 20px;
+    color: #48484c;
+    font-weight: bold;
+    
+}
+.card-review h4{
+    font-size: 20px;
+    color: #48484c;
+    font-weight: normal;
+    
+}
+.card-review img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.card-review div h3{
+    margin-top: 50px;
+}
+.card-review div h4{
+    margin-bottom: 50px;
 }
