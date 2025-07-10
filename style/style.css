@@ -13,7 +13,7 @@ body{
     width: 1440px;
     height: 700px;
     margin: 0 auto;
-    background-image: url(Assets/hero-bg.png);
+    background-image: url(../Assets/hero-bg.png);
     background-repeat: no-repeat;
         
 }
