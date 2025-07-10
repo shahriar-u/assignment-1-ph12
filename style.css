@@ -48,9 +48,15 @@ nav ul a{
     border: none;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: #00a403;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00a403;
+}
 .btnmar{
     margin-right: 130px;
 }
+
 .banner-section h1{
     font-size: 65px;
    text-align: center;
@@ -96,6 +102,11 @@ nav ul a{
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+.live-btn:hover{
+    background-color: #00a403;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00a403;
 }
 .actionright img {
     border-radius: 35px;
@@ -183,6 +194,11 @@ nav ul a{
     margin-left: 16px;
     cursor: pointer;
 }
+.getbutton:hover{
+    background-color: #00a403;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00a403;
+}
 .label-title, .input, .textarea{
     margin: 15px;
 }
@@ -213,6 +229,10 @@ footer div h5{
     font-size: 28px;
     color: #8987A1;
     font-weight: normal;
+    
+}
+footer div h5 a{
+    text-decoration: none;
 }
 
 /* feedback section  */
@@ -234,6 +254,10 @@ footer div h5{
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(178, 178, 178);
+}
+.card:hover{
+    
+    box-shadow: 0 0 20px 0px rgb(0, 0, 255);
 }
 .card h2{
     font-size: 20px;
