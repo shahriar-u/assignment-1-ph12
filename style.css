@@ -67,7 +67,7 @@ nav ul a{
     
 }
 .actionright{
-    margin-right: 90px;
+    margin-right: 60px;
 }
 .actionleft{
     margin-left: 60px;
@@ -91,4 +91,42 @@ nav ul a{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+}
+.actionright img {
+    border-radius: 35px;
+}
+
+/* user section  */
+.user-section{
+    width: 1200px;
+    height: 306px;
+    margin: 100px auto;
+    border-radius: 35px;
+    background-color: #efefff;
+    padding: 60px;
+}
+.usr-caption{
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.usr-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto 200px;
+}
+.usr-des h1{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.usr-des p{
+    font-size: 20px;
+    color: #868686;
+    margin-bottom: 100px;
 }
